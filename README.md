@@ -1,0 +1,2 @@
+# wp-goracash
+WordPress Plugin
