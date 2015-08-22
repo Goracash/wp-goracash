@@ -1,5 +1,4 @@
-# Goracash
-
+=== Goracash ===
 Contributors: davaxi
 Tags: goracash, adserver, banner, lead, teach, construction, iframe
 Requires at least: 3.0.1
@@ -11,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Goracash, part of Wengo - Vivendi Group, is an affiliate program that allows you to monetize your traffic and earn money with it.
 
-## Description
+== Description ==
 
 Goracash, part of Wengo - Vivendi Group, is an affiliate program that allows you to monetize your traffic and earn money with it.
 
@@ -38,63 +37,70 @@ You can add our banners via the Widgets interface (Goracash Banner) or via the s
 
 You can add the iframe via the Widgets interface (Goracash Iframe) or via the shortcode [goracash_iframe]
 
-## Installation
+== Installation ==
 
 This section describes how to install the plugin and get it working.
 
 1. Upload `wp-goracash` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-### Shortcode
+== Shortcode ==
 
-#### [goracash_banner]
+= [goracash_banner] =
 
 Setting up a dynamic banner
 
-| Parameter       | Description                                                                   | Required | Values                                   | Default               |
-| --------------- | ----------------------------------------------------------------------------- | -------- | ---------------------------------------- | --------------------- | 
-| title           | Title of block                                                                | optional | any text                                 | none                  |
-| thematic        | Thematic of banner                                                            | optional | ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP | Specified in settings |
-| tracker         | Your tracker                                                                  | optional | any text                                 | none                  |
-| defaultLanguage | This language will be used in case we do not dected the language of the user. | optional | fr_FR, es_ES                             | Specified in settings |
-| defaultMarket   | This market will be used in case we did not detect the location of the user.  | optional | france, spain                            | Specified in settings |
-| minWidth        | Minimum width (in px)                                                         | optional | integer                                  | none                  |
-| maxWidth        | Maximum width (in px)                                                         | optional | integer                                  | none                  |
-| minHeight       | Minimum height (in px)                                                        | optional | integer                                  | none                  |
-| maxHeight       | Maximum height (in px)                                                        | optional | integer                                  | none                  |
+Parameters:
 
-#### [goracash_iframe]
+- **title**: Title of block (optional) - any text (default: none)
+- **thematic**: Thematic of banner (optional) - ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP (default: Specified in settings)
+- **tracker**: Your tracker (optional) - any text (default: none)
+- **defaultLanguage**: This language will be used in case we do not dected the language of the user. (optional) - fr_FR, es_ES (default: Specified in settings)
+- **defaultMarket**: This market will be used in case we did not detect the location of the user. (optional) - france, spain (default: Specified in settings)
+- **minWidth**: Minimum width (in px) (optional) - integer (default: none)
+- **maxWidth**: Maximum width (in px) (optional) - integer (default: none)
+- **minHeight**: Minimum height (in px) (optional) - integer (default: none)
+- **maxHeight**: Maximum height (in px) (optional) - integer (default: none)
+
+= [goracash_iframe] =
 
 Lead capture form
 
-| Parameter | Description    | Required | Values                                 | Default |
-| --------- | -------------- | -------- | -------------------------------------- | ------- | 
-| title     | Title of block | optional | any text                               | none    |
-| type      | Type of iframe | required | astro, academic, estimation, juridical | none    |
-| tracker   | Your tracker   | optional | any text                               | none    |
+Parameters:
 
-## Frequently Asked Questions
+- **title**: Title of block (optional) - any text (default: none)
+- **type**: Type of iframe (required) - astro, academic, estimation, juridical (default: none)
+- **tracker**: Your tracker (optional) - any text (default: none)
 
-### How can I get my Goracash ID ?
+== Frequently Asked Questions ==
+
+= How can I get my Goracash ID ? =
 
 Your ID Goracash of 4 digits is displayed on the top right of your interface screen
 
-### Why do I need to create an API key ?
+= Why do I need to create an API key ? =
 
 Your customer ID / client_secret allows you to log in our in the interface without typing your ID and password for the security matter. It allows you to get your statistics on your Wordpress interface.
 
-### Where to find my client_id / client_secret ?
+= Where to find my client_id / client_secret ? =
 
 Log on your affiliate interface, click on your account on the top right and go to the “API and Authentication” tab.
 
-### Why can’t I see the stats of the banners ?
+= Why can’t I see the stats of the banners ? =
 
 Coming soon. We are currently developing this interface in order to give the entire follow up of our promotion tools stats. You will be notified by email once the plugin is updated.
 
 If you have any further questions, do not hesitate to contact directly our Affiliate Manager.
 
-## Changelog
+== Changelog ==
 
-### 0.1
-
+= 0.1 =
 * Create first version of plugin with Goracash Tools (Banners / Iframes / Top Bar / Pop Exit)
+
+== Upgrade Notice ==
+
+No upgrade.
+
+== Screenshots ==
+
+No screenshots.

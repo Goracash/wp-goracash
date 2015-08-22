@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goracash\n"
+"POT-Creation-Date: 2015-08-22 13:17+0200\n"
+"PO-Revision-Date: 2015-08-22 13:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-goracash.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/banner.php:33 includes/iframe.php:35
+msgid "Astrology / Fortune Telling"
+msgstr "Astrologie / Voyance"
+
+#: includes/banner.php:34
+msgid "Psychology"
+msgstr "Psychologie"
+
+#: includes/banner.php:35 includes/iframe.php:36
+msgid "Education"
+msgstr "Enseignement"
+
+#: includes/banner.php:36 includes/iframe.php:37
+msgid "Construction"
+msgstr "Travaux"
+
+#: includes/banner.php:37 includes/iframe.php:38
+msgid "Juridical"
+msgstr "Juridique"
+
+#: includes/banner.php:38
+msgid "Sponsorship"
+msgstr "Parrainage"
+
+#: includes/banner.php:48 includes/banner.php:59
+msgid "French"
+msgstr "Français"
+
+#: includes/banner.php:49 includes/banner.php:60
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: includes/banner.widget.php:8
+msgid "Banner Goracash"
+msgstr "Goracash Bannière"
+
+#: includes/banner.widget.php:9
+msgid "Setting up a dynamic banner"
+msgstr "Mise en place d'une bannière dynamique"
+
+#: includes/banner.widget.php:101
+msgid "All fields are optional."
+msgstr "Tout les champs sont facultatifs."
+
+#: includes/banner.widget.php:103 includes/iframe.widget.php:64
+msgid "Title"
+msgstr "Titre"
+
+#: includes/banner.widget.php:109 wp-goracash.php:190
+msgid "Thematic"
+msgstr "Thématique"
+
+#: includes/banner.widget.php:112 includes/banner.widget.php:119
+#: includes/banner.widget.php:126
+msgid "By default"
+msgstr "Par défaut"
+
+#: includes/banner.widget.php:116 wp-goracash.php:192
+msgid "Default language"
+msgstr "Langue par défaut"
+
+#: includes/banner.widget.php:123 wp-goracash.php:195
+msgid "Default market"
+msgstr "Marché par défaut"
+
+#: includes/banner.widget.php:130 includes/iframe.widget.php:74
+msgid "Your tracker"
+msgstr "Votre Tracker"
+
+#: includes/banner.widget.php:136
+msgid "Minimum width (in px)"
+msgstr "Largeur minimale (en px)"
+
+#: includes/banner.widget.php:142
+msgid "Maximum width (in px)"
+msgstr "Largeur maximale (en px)"
+
+#: includes/banner.widget.php:148
+msgid "Minimum height (in px)"
+msgstr "Hauteur minimale (en px)"
+
+#: includes/banner.widget.php:154
+msgid "Maximum height (in px)"
+msgstr "Hauteur maximale (en px)"
+
+#: includes/iframe.widget.php:8
+msgid "Goracash Iframe"
+msgstr "Goracash Iframe"
+
+#: includes/iframe.widget.php:9
+msgid "Lead capture form"
+msgstr "Formulaire de captation de lead"
+
+#: includes/iframe.widget.php:69
+msgid "Type"
+msgstr "Type"
+
+#: wp-goracash.php:62
+msgid "Settings"
+msgstr "Configurations"
+
+#: wp-goracash.php:174
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: wp-goracash.php:175
+msgid "To use our different tools, you need a Goracash account."
+msgstr ""
+"Afin de pouvoir utiliser nos différents outils, il vous faut un compte "
+"Goracash."
+
+#: wp-goracash.php:176
+msgid "Create a free account"
+msgstr "Créer un compte gratuitement"
+
+#: wp-goracash.php:177
+msgid "Identifier"
+msgstr "identifiant"
+
+#: wp-goracash.php:179
+msgid ""
+"This ID is 4 digits and are located at the top right of your affiliate "
+"interface"
+msgstr ""
+"Cet ID est de 4 chiffres et est situé en haut à droite de votre interface "
+"affilié"
+
+#: wp-goracash.php:180
+msgid "Your API client ID"
+msgstr "Votre API Client ID"
+
+#: wp-goracash.php:182
+msgid "This identifier is generated in your affiliate interface."
+msgstr "Cet identifiant est à générer dans votre espace affilié."
+
+#: wp-goracash.php:183 wp-goracash.php:187
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: wp-goracash.php:184
+msgid "Your API secret Key"
+msgstr "Votre API Client Secret"
+
+#: wp-goracash.php:186
+msgid "This information is provided to you in your affiliate interface."
+msgstr "Cette information vous est fourni dans votre interface affilié."
+
+#: wp-goracash.php:188
+msgid "Content settings"
+msgstr "Paramètres de contenu"
+
+#: wp-goracash.php:189
+msgid ""
+"This section allows you to specify the default settings to all content you "
+"use, they can be overloaded by the individual on."
+msgstr ""
+"Cette section vous permet de spécifier les paramètres par défaut à tous les "
+"contenus que vous utilisez, ils peuvent être surchargées individuellement."
+
+#: wp-goracash.php:194
+msgid ""
+"This language will be used in case we do not detect the language of the user."
+msgstr ""
+"Cette langue sera utilisée au cas où nous ne détecterions la langue de "
+"l’utilisateur."
+
+#: wp-goracash.php:197
+msgid ""
+"This market will be used in case we did not detect the location of the user."
+msgstr ""
+"Ce marché sera utilisé au cas où nous ne détectons pas l’emplacement de "
+"l’utilisateur."
+
+#: wp-goracash.php:198
+msgid "Forcing SSL"
+msgstr "Forcer le SSL"
+
+#: wp-goracash.php:200
+msgid "This option allows you to force all request in safe mode."
+msgstr "Cette option permet de forcer toute les requêtes en mode sécurisé."
+
+#: wp-goracash.php:201
+msgid "Enable Pop-Exit"
+msgstr "Activer la Pop-Exit"
+
+#: wp-goracash.php:203
+msgid "This option enables our popexit on your entire site."
+msgstr ""
+"Cette option permet d'activer notre pop-exit sur l'ensemble de votre site."
+
+#: wp-goracash.php:204
+msgid "Enable Top-Bar"
+msgstr "Activer la Top Bar"
+
+#: wp-goracash.php:206
+msgid "This option enables our top bar on your entire site."
+msgstr ""
+"Cette option permet d’activer notre top bar sur l'ensemble de votre site."
+
+#. Plugin Name of the plugin/theme
+msgid "Goracash"
+msgstr "Goracash"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.goracash.com"
+msgstr "http://www.goracash.com"
+
+#. Description of the plugin/theme
+msgid "Plugin for Goracash content's integration"
+msgstr "Plugin pour l’intégration de contenu Goracash"
+
+#. Author of the plugin/theme
+msgid "David Patiashvili"
+msgstr "David Patiashvili"
+
+#. Author URI of the plugin/theme
+msgid "https://www.patiashvili.fr"
+msgstr "https://www.patiashvili.fr"
+
+#~ msgid ""
+#~ "This language will be used in case we do not détecterions the language of "
+#~ "the user."
+#~ msgstr ""
+#~ "Cette langue sera utilisée au cas où nous ne détecterions la langue de "
+#~ "l’utilisateur."
+
+#~ msgid ""
+#~ "To use our different tools, you need a Goracash account you can create "
+#~ "here."
+#~ msgstr ""
+#~ "Afin de pouvoir utiliser nos différents outils, il vous faut un compte "
+#~ "Goracash."
+
+#~ msgid "Default"
+#~ msgstr "Par default"
