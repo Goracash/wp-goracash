@@ -1,0 +1,3 @@
+[submodule "includes/goracash-api-php-client"]
+	path = includes/goracash-api-php-client
+	url = git@github.com:Goracash/goracash-api-php-client.git
