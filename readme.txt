@@ -4,7 +4,7 @@ Tags: goracash, adserver, banner, lead, teach, construction, iframe
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.4
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,6 +93,9 @@ Coming soon. We are currently developing this interface in order to give the ent
 If you have any further questions, do not hesitate to contact directly our Affiliate Manager.
 
 == Changelog ==
+
+= 0.5 =
+* Add banners and icons for Wordpress
 
 = 0.4 =
 * Fix missing dependencies in SVN repository
