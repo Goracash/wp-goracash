@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2015-08-22 13:17+0200\n"
-"PO-Revision-Date: 2015-08-22 13:17+0200\n"
+"POT-Creation-Date: 2015-08-25 18:47+0200\n"
+"PO-Revision-Date: 2015-08-25 18:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -29,15 +29,15 @@ msgid "Psychology"
 msgstr "Psychologie"
 
 #: includes/banner.php:35 includes/iframe.php:36
-msgid "Education"
+msgid "In-Home Tutoring"
 msgstr "Enseignement"
 
 #: includes/banner.php:36 includes/iframe.php:37
-msgid "Construction"
+msgid "Home Renovation Quote"
 msgstr "Travaux"
 
 #: includes/banner.php:37 includes/iframe.php:38
-msgid "Juridical"
+msgid "Law"
 msgstr "Juridique"
 
 #: includes/banner.php:38
@@ -68,7 +68,7 @@ msgstr "Tout les champs sont facultatifs."
 msgid "Title"
 msgstr "Titre"
 
-#: includes/banner.widget.php:109 wp-goracash.php:190
+#: includes/banner.widget.php:109 wp-goracash.php:218
 msgid "Thematic"
 msgstr "Thématique"
 
@@ -77,11 +77,11 @@ msgstr "Thématique"
 msgid "By default"
 msgstr "Par défaut"
 
-#: includes/banner.widget.php:116 wp-goracash.php:192
+#: includes/banner.widget.php:116 wp-goracash.php:220
 msgid "Default language"
 msgstr "Langue par défaut"
 
-#: includes/banner.widget.php:123 wp-goracash.php:195
+#: includes/banner.widget.php:123 wp-goracash.php:223
 msgid "Default market"
 msgstr "Marché par défaut"
 
@@ -117,29 +117,42 @@ msgstr "Formulaire de captation de lead"
 msgid "Type"
 msgstr "Type"
 
-#: wp-goracash.php:62
+#: wp-goracash.php:75
 msgid "Settings"
 msgstr "Configurations"
 
-#: wp-goracash.php:174
+#: wp-goracash.php:100 wp-goracash.php:253
+msgid "Warning"
+msgstr "Attention"
+
+#: wp-goracash.php:101
+msgid "Your affiliate ID is missing."
+msgstr "Votre ID affilié est manquant."
+
+#: wp-goracash.php:102 wp-goracash.php:211 wp-goracash.php:215
+#: wp-goracash.php:248 wp-goracash.php:255
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: wp-goracash.php:202
 msgid "General settings"
 msgstr "Paramètres généraux"
 
-#: wp-goracash.php:175
+#: wp-goracash.php:203
 msgid "To use our different tools, you need a Goracash account."
 msgstr ""
 "Afin de pouvoir utiliser nos différents outils, il vous faut un compte "
 "Goracash."
 
-#: wp-goracash.php:176
+#: wp-goracash.php:204
 msgid "Create a free account"
 msgstr "Créer un compte gratuitement"
 
-#: wp-goracash.php:177
+#: wp-goracash.php:205
 msgid "Identifier"
 msgstr "identifiant"
 
-#: wp-goracash.php:179
+#: wp-goracash.php:207
 msgid ""
 "This ID is 4 digits and are located at the top right of your affiliate "
 "interface"
@@ -147,31 +160,27 @@ msgstr ""
 "Cet ID est de 4 chiffres et est situé en haut à droite de votre interface "
 "affilié"
 
-#: wp-goracash.php:180
+#: wp-goracash.php:208
 msgid "Your API client ID"
 msgstr "Votre API Client ID"
 
-#: wp-goracash.php:182
+#: wp-goracash.php:210
 msgid "This identifier is generated in your affiliate interface."
 msgstr "Cet identifiant est à générer dans votre espace affilié."
 
-#: wp-goracash.php:183 wp-goracash.php:187
-msgid "Learn more"
-msgstr "En savoir plus"
-
-#: wp-goracash.php:184
+#: wp-goracash.php:212
 msgid "Your API secret Key"
 msgstr "Votre API Client Secret"
 
-#: wp-goracash.php:186
+#: wp-goracash.php:214
 msgid "This information is provided to you in your affiliate interface."
 msgstr "Cette information vous est fourni dans votre interface affilié."
 
-#: wp-goracash.php:188
+#: wp-goracash.php:216
 msgid "Content settings"
 msgstr "Paramètres de contenu"
 
-#: wp-goracash.php:189
+#: wp-goracash.php:217
 msgid ""
 "This section allows you to specify the default settings to all content you "
 "use, they can be overloaded by the individual on."
@@ -179,45 +188,64 @@ msgstr ""
 "Cette section vous permet de spécifier les paramètres par défaut à tous les "
 "contenus que vous utilisez, ils peuvent être surchargées individuellement."
 
-#: wp-goracash.php:194
+#: wp-goracash.php:222
 msgid ""
 "This language will be used in case we do not detect the language of the user."
 msgstr ""
 "Cette langue sera utilisée au cas où nous ne détecterions la langue de "
 "l’utilisateur."
 
-#: wp-goracash.php:197
+#: wp-goracash.php:225
 msgid ""
 "This market will be used in case we did not detect the location of the user."
 msgstr ""
 "Ce marché sera utilisé au cas où nous ne détectons pas l’emplacement de "
 "l’utilisateur."
 
-#: wp-goracash.php:198
+#: wp-goracash.php:226
 msgid "Forcing SSL"
 msgstr "Forcer le SSL"
 
-#: wp-goracash.php:200
+#: wp-goracash.php:228
 msgid "This option allows you to force all request in safe mode."
 msgstr "Cette option permet de forcer toute les requêtes en mode sécurisé."
 
-#: wp-goracash.php:201
+#: wp-goracash.php:229
 msgid "Enable Pop-Exit"
 msgstr "Activer la Pop-Exit"
 
-#: wp-goracash.php:203
+#: wp-goracash.php:231
 msgid "This option enables our popexit on your entire site."
 msgstr ""
 "Cette option permet d'activer notre pop-exit sur l'ensemble de votre site."
 
-#: wp-goracash.php:204
+#: wp-goracash.php:232
 msgid "Enable Top-Bar"
 msgstr "Activer la Top Bar"
 
-#: wp-goracash.php:206
+#: wp-goracash.php:234
 msgid "This option enables our top bar on your entire site."
 msgstr ""
 "Cette option permet d’activer notre top bar sur l'ensemble de votre site."
+
+#: wp-goracash.php:246 wp-goracash.php:269
+msgid "Error"
+msgstr "Erreur"
+
+#: wp-goracash.php:247
+msgid "To access these statistics please enter your API credentials."
+msgstr ""
+"Pour accéder à ces statistiques entrez vos informations d’identification API."
+
+#: wp-goracash.php:254
+msgid "API credentials are missing."
+msgstr "Vos information d’identification API sont manquantes."
+
+#: wp-goracash.php:270
+msgid "An error occured when validating your authentication information."
+msgstr ""
+"Une erreur est survenue lors de la validation de vos informations "
+"d’authentification."
 
 #. Plugin Name of the plugin/theme
 msgid "Goracash"
@@ -238,6 +266,39 @@ msgstr "David Patiashvili"
 #. Author URI of the plugin/theme
 msgid "https://www.patiashvili.fr"
 msgstr "https://www.patiashvili.fr"
+
+#~ msgid "Statistics of leads"
+#~ msgstr "Statistiques Leads"
+
+#~ msgid "Success"
+#~ msgstr "Succès"
+
+#~ msgid ""
+#~ "The identification and collecting your statistics are held with success."
+#~ msgstr ""
+#~ "L’identification et la collecte de vos statistiques ce sont déroulés avec "
+#~ "succès."
+
+#~ msgid "Submitted leads"
+#~ msgstr "Leads soumis"
+
+#~ msgid "Validated leads"
+#~ msgstr "Leads validés"
+
+#~ msgid "Refused leads"
+#~ msgstr "Leads refusés"
+
+#~ msgid "Payout"
+#~ msgstr "Reversement"
+
+#~ msgid "Education"
+#~ msgstr "Enseignement"
+
+#~ msgid "Construction"
+#~ msgstr "Travaux"
+
+#~ msgid "Juridical"
+#~ msgstr "Juridique"
 
 #~ msgid ""
 #~ "This language will be used in case we do not détecterions the language of "

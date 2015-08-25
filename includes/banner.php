@@ -32,9 +32,9 @@ class Goracash_Banner
         return array(
             'ASTRO' => __('Astrology / Fortune Telling', 'goracash'),
             'PSYCHO' => __('Psychology', 'goracash'),
-            'TEACH' => __('Education', 'goracash'),
-            'DEVIS' => __('Construction', 'goracash'),
-            'JURI' => __('Juridical', 'goracash'),
+            'TEACH' => __('In-Home Tutoring', 'goracash'),
+            'DEVIS' => __('Home Renovation Quote', 'goracash'),
+            'JURI' => __('Law', 'goracash'),
             'SPONSORSHIP' => __('Sponsorship', 'goracash'),
         );
     }

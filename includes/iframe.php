@@ -19,7 +19,7 @@ class Goracash_Iframe
 	{
 		$urls = array(
 			'astro' => 'https://www.news-voyance.com/fr_FR/iframe/',
-			'academic' => 'http://www.bonnes-notes.com/iframe/',
+			'academic' => 'http://www.bonne-note.com/iframe/',
 			'estimation' => 'http://www.vos-devis.com/iframe/',
 			'juridical' => 'https://partner.juritravail.com/',
 		);
@@ -33,9 +33,9 @@ class Goracash_Iframe
 	{
 		return array(
 			'astro' => __('Astrology / Fortune Telling', 'goracash'),
-			'academic' => __('Education', 'goracash'),
-			'estimation' => __('Construction', 'goracash'),
-			'juridical' => __('Juridical', 'goracash'),
+			'academic' => __('In-Home Tutoring', 'goracash'),
+			'estimation' => __('Home Renovation Quote', 'goracash'),
+			'juridical' => __('Law', 'goracash'),
 		);
 	}
 }
