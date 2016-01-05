@@ -68,11 +68,11 @@ Setting up a dynamic banner
 
 Lead capture form
 
-| Parameter | Description    | Required | Values                                             | Default |
-| --------- | -------------- | -------- | -------------------------------------------------- | ------- |
-| title     | Title of block | optional | any text                                           | none    |
-| type      | Type of iframe | required | astro, academic, estimation, juridical, voslitiges | none    |
-| tracker   | Your tracker   | optional | any text                                           | none    |
+| Parameter | Description    | Required | Values                                                                    | Default |
+| --------- | -------------- | -------- | ------------------------------------------------------------------------- | ------- |
+| title     | Title of block | optional | any text                                                                  | none    |
+| type      | Type of iframe | required | astro, academic, academic_subscription, estimation, juridical, voslitiges | none    |
+| tracker   | Your tracker   | optional | any text                                                                  | none    |
 
 ## Frequently Asked Questions
 
@@ -101,6 +101,7 @@ If you have any further questions, do not hesitate to contact directly our Affil
 * Fix invalid links
 * Add advertiser option for banners
 * Add VosLitiges iframe
+* Add Academic Subscription iframe
 
 ### 0.6
 

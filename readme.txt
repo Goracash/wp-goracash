@@ -70,7 +70,7 @@ Lead capture form
 Parameters:
 
 - **title**: Title of block (optional) - any text (default: none)
-- **type**: Type of iframe (required) - astro, academic, estimation, juridical, voslitiges (default: none)
+- **type**: Type of iframe (required) - astro, academic, academic_subscription, estimation, juridical, voslitiges (default: none)
 - **tracker**: Your tracker (optional) - any text (default: none)
 
 == Frequently Asked Questions ==
@@ -99,6 +99,7 @@ If you have any further questions, do not hesitate to contact directly our Affil
 * Fix invalid links
 * Add advertiser option for banners
 * Add VosLitiges iframe
+* Add Academic Subscription iframe
 
 = 0.6 =
 * Add italian and portuguese languages
