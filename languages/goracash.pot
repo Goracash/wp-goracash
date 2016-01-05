@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2016-01-05 22:41+0100\n"
+"POT-Creation-Date: 2016-01-05 22:48+0100\n"
 "PO-Revision-Date: 2015-08-26 20:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:34 includes/iframe.php:35
+#: includes/banner.php:34 includes/iframe.php:36
 msgid "Astrology / Fortune Telling"
 msgstr ""
 
@@ -28,15 +28,15 @@ msgstr ""
 msgid "Psychology"
 msgstr ""
 
-#: includes/banner.php:36 includes/iframe.php:36
+#: includes/banner.php:36 includes/iframe.php:37
 msgid "In-Home Tutoring"
 msgstr ""
 
-#: includes/banner.php:37 includes/iframe.php:37
+#: includes/banner.php:37 includes/iframe.php:38
 msgid "Home Renovation Quote"
 msgstr ""
 
-#: includes/banner.php:38 includes/iframe.php:38
+#: includes/banner.php:38 includes/iframe.php:39
 msgid "Law"
 msgstr ""
 
@@ -111,6 +111,10 @@ msgstr ""
 
 #: includes/banner.widget.php:166
 msgid "Maximum height (in px)"
+msgstr ""
+
+#: includes/iframe.php:40
+msgid "Law - Vos Litiges"
 msgstr ""
 
 #: includes/iframe.widget.php:8

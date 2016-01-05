@@ -22,6 +22,7 @@ class Goracash_Iframe
 			'academic' => 'http://www.bonne-note.com/iframe/',
 			'estimation' => 'http://www.vos-devis.com/iframe/',
 			'juridical' => 'https://partner.juritravail.com/',
+			'voslitiges' => 'https://partner.juritravail.com/voslitiges/'
 		);
 		return $urls[$type];
 	}
@@ -36,6 +37,7 @@ class Goracash_Iframe
 			'academic' => __('In-Home Tutoring', 'goracash'),
 			'estimation' => __('Home Renovation Quote', 'goracash'),
 			'juridical' => __('Law', 'goracash'),
+			'voslitiges' => __('Law - Vos Litiges', 'goracash'),
 		);
 	}
 }

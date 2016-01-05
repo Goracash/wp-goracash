@@ -55,6 +55,7 @@ Setting up a dynamic banner
 | --------------- | ----------------------------------------------------------------------------- | -------- | ---------------------------------------- | --------------------- | 
 | title           | Title of block                                                                | optional | any text                                 | none                  |
 | thematic        | Thematic of banner                                                            | optional | ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP | Specified in settings |
+| advertiser      | Advertiser of banner                                                          | optional | any listed values in settings            | Specified in settings |
 | tracker         | Your tracker                                                                  | optional | any text                                 | none                  |
 | defaultLanguage | This language will be used in case we do not dected the language of the user. | optional | fr_FR, es_ES                             | Specified in settings |
 | defaultMarket   | This market will be used in case we did not detect the location of the user.  | optional | france, spain                            | Specified in settings |
@@ -67,11 +68,11 @@ Setting up a dynamic banner
 
 Lead capture form
 
-| Parameter | Description    | Required | Values                                 | Default |
-| --------- | -------------- | -------- | -------------------------------------- | ------- | 
-| title     | Title of block | optional | any text                               | none    |
-| type      | Type of iframe | required | astro, academic, estimation, juridical | none    |
-| tracker   | Your tracker   | optional | any text                               | none    |
+| Parameter | Description    | Required | Values                                             | Default |
+| --------- | -------------- | -------- | -------------------------------------------------- | ------- |
+| title     | Title of block | optional | any text                                           | none    |
+| type      | Type of iframe | required | astro, academic, estimation, juridical, voslitiges | none    |
+| tracker   | Your tracker   | optional | any text                                           | none    |
 
 ## Frequently Asked Questions
 
@@ -99,6 +100,7 @@ If you have any further questions, do not hesitate to contact directly our Affil
 
 * Fix invalid links
 * Add advertiser option for banners
+* Add VosLitiges iframe
 
 ### 0.6
 

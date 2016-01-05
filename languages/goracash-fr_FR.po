@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2016-01-05 22:41+0100\n"
-"PO-Revision-Date: 2016-01-05 22:41+0100\n"
+"POT-Creation-Date: 2016-01-05 22:48+0100\n"
+"PO-Revision-Date: 2016-01-05 22:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:34 includes/iframe.php:35
+#: includes/banner.php:34 includes/iframe.php:36
 msgid "Astrology / Fortune Telling"
 msgstr "Astrologie / Voyance"
 
@@ -28,15 +28,15 @@ msgstr "Astrologie / Voyance"
 msgid "Psychology"
 msgstr "Psychologie"
 
-#: includes/banner.php:36 includes/iframe.php:36
+#: includes/banner.php:36 includes/iframe.php:37
 msgid "In-Home Tutoring"
 msgstr "Enseignement"
 
-#: includes/banner.php:37 includes/iframe.php:37
+#: includes/banner.php:37 includes/iframe.php:38
 msgid "Home Renovation Quote"
 msgstr "Travaux"
 
-#: includes/banner.php:38 includes/iframe.php:38
+#: includes/banner.php:38 includes/iframe.php:39
 msgid "Law"
 msgstr "Juridique"
 
@@ -112,6 +112,10 @@ msgstr "Hauteur minimale (en px)"
 #: includes/banner.widget.php:166
 msgid "Maximum height (in px)"
 msgstr "Hauteur maximale (en px)"
+
+#: includes/iframe.php:40
+msgid "Law - Vos Litiges"
+msgstr "Juridique - Vos Litiges"
 
 #: includes/iframe.widget.php:8
 msgid "Goracash Iframe"

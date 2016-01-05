@@ -54,6 +54,7 @@ Parameters:
 
 - **title**: Title of block (optional) - any text (default: none)
 - **thematic**: Thematic of banner (optional) - ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP (default: Specified in settings)
+- **advertsier**: Advertiser of banner (optional) - Any listed values in settings (default: Specified in settings)
 - **tracker**: Your tracker (optional) - any text (default: none)
 - **defaultLanguage**: This language will be used in case we do not dected the language of the user. (optional) - fr_FR, es_ES (default: Specified in settings)
 - **defaultMarket**: This market will be used in case we did not detect the location of the user. (optional) - france, spain (default: Specified in settings)
@@ -69,7 +70,7 @@ Lead capture form
 Parameters:
 
 - **title**: Title of block (optional) - any text (default: none)
-- **type**: Type of iframe (required) - astro, academic, estimation, juridical (default: none)
+- **type**: Type of iframe (required) - astro, academic, estimation, juridical, voslitiges (default: none)
 - **tracker**: Your tracker (optional) - any text (default: none)
 
 == Frequently Asked Questions ==
@@ -97,6 +98,7 @@ If you have any further questions, do not hesitate to contact directly our Affil
 = 0.7 =
 * Fix invalid links
 * Add advertiser option for banners
+* Add VosLitiges iframe
 
 = 0.6 =
 * Add italian and portuguese languages
