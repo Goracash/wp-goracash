@@ -7,6 +7,7 @@ class Goracash_Banner
     public static $default_params = array(
         'thematic' => '',
         'tracker' => '',
+        'advertiser' => '',
         'defaultLanguage' => '',
         'defaultMarket' => '',
         'minWidth' => '',
@@ -36,6 +37,61 @@ class Goracash_Banner
             'DEVIS' => __('Home Renovation Quote', 'goracash'),
             'JURI' => __('Law', 'goracash'),
             'SPONSORSHIP' => __('Sponsorship', 'goracash'),
+        );
+    }
+
+    /**
+     * @return array
+     */
+    public static function get_advertisers()
+    {
+        return array(
+            '' => __('All', 'goracash'),
+            'pro.vos-devis.com' => 'pro.vos-devis.com',
+            'www.123-pognon.com' => 'www.123-pognon.com',
+            'www.abc-reves.com' => 'www.abc-reves.com',
+            'www.astrologie-facile.com' => 'www.astrologie-facile.com',
+            'www.auto-voyance.com' => 'www.auto-voyance.com',
+            'www.avenir-amoureux.com' => 'www.avenir-amoureux.com',
+            'www.bienvenue-voyance.com' => 'www.bienvenue-voyance.com',
+            'www.bonne-note.com' => 'www.bonne-note.com',
+            'www.bonne-voyance.com' => 'www.bonne-voyance.com',
+            'www.chic-voyance.com' => 'www.chic-voyance.com',
+            'www.couleur-voyance.com' => 'www.couleur-voyance.com',
+            'www.couplomancie.com' => 'www.couplomancie.com',
+            'www.devispresto.com' => 'www.devispresto.com',
+            'www.divinastreet.com' => 'www.divinastreet.com',
+            'www.echec-professionnel.com' => 'www.echec-professionnel.com',
+            'www.envoutage.com' => 'www.envoutage.com',
+            'www.etoilia.com' => 'www.etoilia.com',
+            'www.extranaturel.com' => 'www.extranaturel.com',
+            'www.femme-voyance.com' => 'www.femme-voyance.com',
+            'www.giga-voyance.com' => 'www.giga-voyance.com',
+            'www.goracash.com' => 'www.goracash.com',
+            'www.grande-voyance.com' => 'www.grande-voyance.com',
+            'www.grand-tarot.com' => 'www.grand-tarot.com',
+            'www.histoires-reelles.com' => 'www.histoires-reelles.com',
+            'www.horoscope-facile.com' => 'www.horoscope-facile.com',
+            'www.juritravail.com' => 'www.juritravail.com',
+            'www.kissvoyance.com' => 'www.kissvoyance.com',
+            'www.longue-vie.com' => 'www.longue-vie.com',
+            'www.mediums-de-naissance.com' => 'www.mediums-de-naissance.com',
+            'www.mediums-land.com' => 'www.mediums-land.com',
+            'www.oracle-numerique.com' => 'www.oracle-numerique.com',
+            'www.oui-voyance.com' => 'www.oui-voyance.com',
+            'www.passvoyance.com' => 'www.passvoyance.com',
+            'www.poisse.com' => 'www.poisse.com',
+            'www.predictions-amoureuses.com' => 'www.predictions-amoureuses.com',
+            'www.preditavi.com' => 'www.preditavi.com',
+            'www.problemes-amoureux.com' => 'www.problemes-amoureux.com',
+            'www.reponse-immediate.com' => 'www.reponse-immediate.com',
+            'www.retour-amour.com' => 'www.retour-amour.com',
+            'www.tarot-amoureux.com' => 'www.tarot-amoureux.com',
+            'www.une-reponse.com' => 'www.une-reponse.com',
+            'www.voslitiges.com' => 'www.voslitiges.com',
+            'www.voyants-de-naissance.com' => 'www.voyants-de-naissance.com',
+            'www.voyantsducoeur.com' => 'www.voyantsducoeur.com',
+            'www.wengo.fr/psycho/' => 'www.wengo.fr/psycho/',
         );
     }
 
@@ -88,6 +144,8 @@ class Goracash_Banner
 
     public function add_front_javascript()
     {
+        $advertiser = get_option('goracash_ads_advertiser', '');
+
         printf("<script type='text/javascript'>
                     (function(w, d, s, u, o, e, c){
                         w['GoracashObject'] = o; w[o] = w[o] || function() { (w[o].q = w[o].q || []).push(arguments) },
@@ -101,12 +159,14 @@ class Goracash_Banner
                     goracash('set', 'defaultMarket', '%s');
                     %s
                     %s
+                    %s
                 </script>",
             get_option('goracash_idw', '1234'),
             get_option('goracash_ads_force_ssl') ? 'true' : 'false',
             get_option('goracash_ads_thematic', 'ASTRO'),
             get_option('goracash_ads_default_lang', 'fr_FR'),
             get_option('goracash_ads_default_market', 'french'),
+            $advertiser ? sprintf("goracash('set', 'advertiser', '%s');", $advertiser) : '',
             get_option('goracash_ads_popexit') ? "goracash('exit');" : '',
             get_option('goracash_ads_top_bar') ? "goracash('top-bar');" : ''
         );

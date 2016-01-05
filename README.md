@@ -95,7 +95,12 @@ If you have any further questions, do not hesitate to contact directly our Affil
 
 ## Changelog
 
-###  0.6
+### 0.7
+
+* Fix invalid links
+* Add advertiser option for banners
+
+### 0.6
 
 * Add italian and portuguese languages
 
@@ -115,7 +120,6 @@ If you have any further questions, do not hesitate to contact directly our Affil
 
 * Check API credentials
 * Use languages translations for english and french version
-
 
 ### 0.1
 

@@ -72,6 +72,7 @@ if (!class_exists('Goracash_Plugin')) {
             register_setting('goracash_settings', 'goracash_client_id');
             register_setting('goracash_settings', 'goracash_client_secret');
             register_setting('goracash_settings', 'goracash_ads_thematic');
+            register_setting('goracash_settings', 'goracash_ads_advertiser');
             register_setting('goracash_settings', 'goracash_ads_default_lang');
             register_setting('goracash_settings', 'goracash_ads_default_market');
             register_setting('goracash_settings', 'goracash_ads_popexit');
@@ -162,6 +163,14 @@ if (!class_exists('Goracash_Plugin')) {
                                 </td>
                             </tr>
                             <tr>
+                                <th><label for="goracash_ads_advertiser">%s</label></th>
+                                <td>
+                                    <select name="goracash_ads_advertiser" id="goracash_ads_advertiser">
+                                        %s
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
                                 <th><label for="goracash_ads_default_lang">%s</label></th>
                                 <td>
                                     <select name="goracash_ads_default_lang" id="goracash_ads_default_lang">
@@ -227,6 +236,8 @@ if (!class_exists('Goracash_Plugin')) {
                 __('This section allows you to specify the default settings to all content you use, they can be overloaded by the individual on.', 'goracash'),
                 __('Thematic', 'goracash'),
                 $this->get_dropdown(Goracash_Banner::get_thematics(), get_option('goracash_ads_thematic')),
+                __('Advertiser', 'goracash'),
+                $this->get_dropdown(Goracash_Banner::get_advertisers(), get_option('goracash_ads_advertiser')),
                 __('Default language', 'goracash'),
                 $this->get_dropdown(Goracash_Banner::get_langs(), get_option('goracash_ads_default_lang')),
                 __('This language will be used in case we do not detect the language of the user.', 'goracash'),

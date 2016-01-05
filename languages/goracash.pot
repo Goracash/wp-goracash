@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2015-08-26 20:27+0200\n"
+"POT-Creation-Date: 2016-01-05 22:41+0100\n"
 "PO-Revision-Date: 2015-08-26 20:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,35 +20,39 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:33 includes/iframe.php:35
+#: includes/banner.php:34 includes/iframe.php:35
 msgid "Astrology / Fortune Telling"
 msgstr ""
 
-#: includes/banner.php:34
+#: includes/banner.php:35
 msgid "Psychology"
 msgstr ""
 
-#: includes/banner.php:35 includes/iframe.php:36
+#: includes/banner.php:36 includes/iframe.php:36
 msgid "In-Home Tutoring"
 msgstr ""
 
-#: includes/banner.php:36 includes/iframe.php:37
+#: includes/banner.php:37 includes/iframe.php:37
 msgid "Home Renovation Quote"
 msgstr ""
 
-#: includes/banner.php:37 includes/iframe.php:38
+#: includes/banner.php:38 includes/iframe.php:38
 msgid "Law"
 msgstr ""
 
-#: includes/banner.php:38
+#: includes/banner.php:39
 msgid "Sponsorship"
 msgstr ""
 
-#: includes/banner.php:48 includes/banner.php:59
+#: includes/banner.php:49
+msgid "All"
+msgstr ""
+
+#: includes/banner.php:104 includes/banner.php:115
 msgid "French"
 msgstr ""
 
-#: includes/banner.php:49 includes/banner.php:60
+#: includes/banner.php:105 includes/banner.php:116
 msgid "Spanish"
 msgstr ""
 
@@ -60,48 +64,52 @@ msgstr ""
 msgid "Setting up a dynamic banner"
 msgstr ""
 
-#: includes/banner.widget.php:101
+#: includes/banner.widget.php:107
 msgid "All fields are optional."
 msgstr ""
 
-#: includes/banner.widget.php:103 includes/iframe.widget.php:64
+#: includes/banner.widget.php:109 includes/iframe.widget.php:64
 msgid "Title"
 msgstr ""
 
-#: includes/banner.widget.php:109 wp-goracash.php:228
+#: includes/banner.widget.php:115 wp-goracash.php:237
 msgid "Thematic"
 msgstr ""
 
-#: includes/banner.widget.php:112 includes/banner.widget.php:119
-#: includes/banner.widget.php:126
+#: includes/banner.widget.php:118 includes/banner.widget.php:131
+#: includes/banner.widget.php:138
 msgid "By default"
 msgstr ""
 
-#: includes/banner.widget.php:116 wp-goracash.php:230
+#: includes/banner.widget.php:122 wp-goracash.php:239
+msgid "Advertiser"
+msgstr ""
+
+#: includes/banner.widget.php:128 wp-goracash.php:241
 msgid "Default language"
 msgstr ""
 
-#: includes/banner.widget.php:123 wp-goracash.php:233
+#: includes/banner.widget.php:135 wp-goracash.php:244
 msgid "Default market"
 msgstr ""
 
-#: includes/banner.widget.php:130 includes/iframe.widget.php:74
+#: includes/banner.widget.php:142 includes/iframe.widget.php:74
 msgid "Your tracker"
 msgstr ""
 
-#: includes/banner.widget.php:136
+#: includes/banner.widget.php:148
 msgid "Minimum width (in px)"
 msgstr ""
 
-#: includes/banner.widget.php:142
+#: includes/banner.widget.php:154
 msgid "Maximum width (in px)"
 msgstr ""
 
-#: includes/banner.widget.php:148
+#: includes/banner.widget.php:160
 msgid "Minimum height (in px)"
 msgstr ""
 
-#: includes/banner.widget.php:154
+#: includes/banner.widget.php:166
 msgid "Maximum height (in px)"
 msgstr ""
 
@@ -117,118 +125,118 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: wp-goracash.php:85
+#: wp-goracash.php:86
 msgid "Settings"
 msgstr ""
 
-#: wp-goracash.php:110 wp-goracash.php:263
+#: wp-goracash.php:111 wp-goracash.php:274
 msgid "Warning"
 msgstr ""
 
-#: wp-goracash.php:111
+#: wp-goracash.php:112
 msgid "Your affiliate ID is missing."
 msgstr ""
 
-#: wp-goracash.php:112 wp-goracash.php:221 wp-goracash.php:225
-#: wp-goracash.php:258 wp-goracash.php:265
+#: wp-goracash.php:113 wp-goracash.php:230 wp-goracash.php:234
+#: wp-goracash.php:269 wp-goracash.php:276
 msgid "Learn more"
 msgstr ""
 
-#: wp-goracash.php:212
+#: wp-goracash.php:221
 msgid "General settings"
 msgstr ""
 
-#: wp-goracash.php:213
+#: wp-goracash.php:222
 msgid "To use our different tools, you need a Goracash account."
 msgstr ""
 
-#: wp-goracash.php:214
+#: wp-goracash.php:223
 msgid "Create a free account"
 msgstr ""
 
-#: wp-goracash.php:215
+#: wp-goracash.php:224
 msgid "Identifier"
 msgstr ""
 
-#: wp-goracash.php:217
+#: wp-goracash.php:226
 msgid ""
 "This ID is 4 digits and are located at the top right of your affiliate "
 "interface"
 msgstr ""
 
-#: wp-goracash.php:218
+#: wp-goracash.php:227
 msgid "Your API client ID"
 msgstr ""
 
-#: wp-goracash.php:220
+#: wp-goracash.php:229
 msgid "This identifier is generated in your affiliate interface."
 msgstr ""
 
-#: wp-goracash.php:222
+#: wp-goracash.php:231
 msgid "Your API secret Key"
 msgstr ""
 
-#: wp-goracash.php:224
+#: wp-goracash.php:233
 msgid "This information is provided to you in your affiliate interface."
 msgstr ""
 
-#: wp-goracash.php:226
+#: wp-goracash.php:235
 msgid "Content settings"
 msgstr ""
 
-#: wp-goracash.php:227
+#: wp-goracash.php:236
 msgid ""
 "This section allows you to specify the default settings to all content you "
 "use, they can be overloaded by the individual on."
 msgstr ""
 
-#: wp-goracash.php:232
+#: wp-goracash.php:243
 msgid ""
 "This language will be used in case we do not detect the language of the user."
 msgstr ""
 
-#: wp-goracash.php:235
+#: wp-goracash.php:246
 msgid ""
 "This market will be used in case we did not detect the location of the user."
 msgstr ""
 
-#: wp-goracash.php:236
+#: wp-goracash.php:247
 msgid "Forcing SSL"
 msgstr ""
 
-#: wp-goracash.php:238
+#: wp-goracash.php:249
 msgid "This option allows you to force all request in safe mode."
 msgstr ""
 
-#: wp-goracash.php:239
+#: wp-goracash.php:250
 msgid "Enable Pop-Exit"
 msgstr ""
 
-#: wp-goracash.php:241
+#: wp-goracash.php:252
 msgid "This option enables our popexit on your entire site."
 msgstr ""
 
-#: wp-goracash.php:242
+#: wp-goracash.php:253
 msgid "Enable Top-Bar"
 msgstr ""
 
-#: wp-goracash.php:244
+#: wp-goracash.php:255
 msgid "This option enables our top bar on your entire site."
 msgstr ""
 
-#: wp-goracash.php:256 wp-goracash.php:279
+#: wp-goracash.php:267 wp-goracash.php:290
 msgid "Error"
 msgstr ""
 
-#: wp-goracash.php:257
+#: wp-goracash.php:268
 msgid "To access these statistics please enter your API credentials."
 msgstr ""
 
-#: wp-goracash.php:264
+#: wp-goracash.php:275
 msgid "API credentials are missing."
 msgstr ""
 
-#: wp-goracash.php:280
+#: wp-goracash.php:291
 msgid "An error occured when validating your authentication information."
 msgstr ""
 

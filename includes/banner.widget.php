@@ -65,6 +65,12 @@ class Goracash_Banner_Widget extends WP_Widget
             <p>
                 <label for="%s">%s :</label>
                 <select class="widefat" id="%s" name="%s" type="text">
+                    %s
+                </select>
+            </p>
+            <p>
+                <label for="%s">%s :</label>
+                <select class="widefat" id="%s" name="%s" type="text">
                     <option value="">%s</option>
                     %s
                 </select>
@@ -111,6 +117,12 @@ class Goracash_Banner_Widget extends WP_Widget
             $this->get_field_name('thematic'),
             __('By default', 'goracash'),
             $this->get_dropdown(Goracash_Banner::get_thematics(), $this->get_value('thematic', $instance, '')),
+
+            $this->get_field_name('advertiser'),
+            __('Advertiser', 'goracash'),
+            $this->get_field_id('advertiser'),
+            $this->get_field_name('advertiser'),
+            $this->get_dropdown(Goracash_Banner::get_advertisers(), $this->get_value('advertiser', $instance, '')),
 
             $this->get_field_name('defaultLanguage'),
             __('Default language', 'goracash'),
