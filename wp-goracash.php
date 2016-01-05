@@ -122,7 +122,7 @@ if (!class_exists('Goracash_Plugin')) {
                 <form method="post" action="options.php">
                     %s
                     <h3 class="title">%s</h3>
-                    <p>%s <a href="htts://account.goracash.com/signup?source=wordpress">%s</a></p>
+                    <p>%s <a href="https://account.goracash.com/signup?utm_source=wordpress">%s</a></p>
                     <table class="form-table">
                         <tbody>
                             <tr>
@@ -136,14 +136,14 @@ if (!class_exists('Goracash_Plugin')) {
                                 <th><label for="goracash_client_id">%s</label></th>
                                 <td>
                                     <input type="text" name="goracash_client_id" id="goracash_client_id" value="%s" class="regular-text" />
-                                    <span class="description">%s <a href="https://account.goracash.com/my/crendentials">%s</a></span>
+                                    <span class="description">%s <a href="https://account.goracash.com/my/tokens">%s</a></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th><label for="goracash_client_secret">%s</label></th>
                                 <td>
                                     <input type="text" name="goracash_client_secret" id="goracash_client_secret" value="%s" class="regular-text" />
-                                    <span class="description">%s <a href="https://account.goracash.com/my/crendentials">%s</a></span>
+                                    <span class="description">%s <a href="https://account.goracash.com/my/tokens">%s</a></span>
                                 </td>
                             </tr>
                         </tbody>
