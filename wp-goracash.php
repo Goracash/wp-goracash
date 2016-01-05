@@ -3,7 +3,7 @@
  * Plugin Name: Goracash
  * Plugin URI: http://www.goracash.com
  * Description: Plugin for Goracash content's integration
- * Version: 0.6
+ * Version: 0.7
  * Author: David Patiashvili
  * Author URI: https://www.patiashvili.fr
  * Text Domain: goracash

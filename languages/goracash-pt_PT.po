@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2016-01-05 22:57+0100\n"
-"PO-Revision-Date: 2016-01-05 22:57+0100\n"
+"POT-Creation-Date: 2016-01-05 23:04+0100\n"
+"PO-Revision-Date: 2016-01-05 23:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:34 includes/iframe.php:37
+#: includes/banner.php:34 includes/iframe.php:38
 msgid "Astrology / Fortune Telling"
 msgstr "Tarot / Astrologia / Vidência"
 
@@ -28,15 +28,15 @@ msgstr "Tarot / Astrologia / Vidência"
 msgid "Psychology"
 msgstr "Psicologia"
 
-#: includes/banner.php:36 includes/iframe.php:38
+#: includes/banner.php:36 includes/iframe.php:39
 msgid "In-Home Tutoring"
 msgstr "Ensino"
 
-#: includes/banner.php:37 includes/iframe.php:40
+#: includes/banner.php:37 includes/iframe.php:41
 msgid "Home Renovation Quote"
 msgstr "Obras"
 
-#: includes/banner.php:38 includes/iframe.php:41
+#: includes/banner.php:38 includes/iframe.php:43
 msgid "Law"
 msgstr "Jurídico"
 
@@ -113,11 +113,15 @@ msgstr "Altura mínima (em px)"
 msgid "Maximum height (in px)"
 msgstr "Altura máxima (em px)"
 
-#: includes/iframe.php:39
+#: includes/iframe.php:40
 msgid "Academic Subscription"
 msgstr "Escola de assinatura"
 
 #: includes/iframe.php:42
+msgid "Home Renovaton Quote - PRO"
+msgstr "Profissional de Construção"
+
+#: includes/iframe.php:44
 msgid "Law - Vos Litiges"
 msgstr "Jurídico - Vos Litiges"
 

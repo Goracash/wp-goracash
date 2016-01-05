@@ -22,6 +22,7 @@ class Goracash_Iframe
 			'academic' => 'http://www.bonne-note.com/iframe/',
 			'academic_subscription' => 'http://www.bonne-note.com/entrainement-en-ligne/iframe/',
 			'estimation' => 'http://www.vos-devis.com/iframe/',
+			'estimation_pro' => 'http://pro.vos-devis.com/iframe/',
 			'juridical' => 'https://partner.juritravail.com/',
 			'voslitiges' => 'https://partner.juritravail.com/voslitiges/'
 		);
@@ -38,6 +39,7 @@ class Goracash_Iframe
 			'academic' => __('In-Home Tutoring', 'goracash'),
 			'academic_subscription' => __('Academic Subscription', 'goracash'),
 			'estimation' => __('Home Renovation Quote', 'goracash'),
+			'estimation_pro' => __('Home Renovaton Quote - PRO', 'goracash'),
 			'juridical' => __('Law', 'goracash'),
 			'voslitiges' => __('Law - Vos Litiges', 'goracash'),
 		);

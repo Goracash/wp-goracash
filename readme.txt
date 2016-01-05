@@ -4,7 +4,7 @@ Tags: goracash, adserver, banner, lead, teach, construction, iframe
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.6
+Stable tag: 0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,7 +70,7 @@ Lead capture form
 Parameters:
 
 - **title**: Title of block (optional) - any text (default: none)
-- **type**: Type of iframe (required) - astro, academic, academic_subscription, estimation, juridical, voslitiges (default: none)
+- **type**: Type of iframe (required) - astro, academic, academic_subscription, estimation, academic_subscription, juridical, voslitiges (default: none)
 - **tracker**: Your tracker (optional) - any text (default: none)
 
 == Frequently Asked Questions ==
@@ -100,6 +100,7 @@ If you have any further questions, do not hesitate to contact directly our Affil
 * Add advertiser option for banners
 * Add VosLitiges iframe
 * Add Academic Subscription iframe
+* Add Estimation Pro iframe
 
 = 0.6 =
 * Add italian and portuguese languages
