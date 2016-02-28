@@ -1,11 +1,11 @@
 # Goracash
 
 Contributors: davaxi
-Tags: goracash, adserver, banner, lead, teach, construction, iframe
+Tags: goracash, adserver, banner, lead, teach, construction, iframe, health
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.7
+Stable tag: 0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,18 +51,18 @@ This section describes how to install the plugin and get it working.
 
 Setting up a dynamic banner
 
-| Parameter       | Description                                                                   | Required | Values                                   | Default               |
-| --------------- | ----------------------------------------------------------------------------- | -------- | ---------------------------------------- | --------------------- | 
-| title           | Title of block                                                                | optional | any text                                 | none                  |
-| thematic        | Thematic of banner                                                            | optional | ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP | Specified in settings |
-| advertiser      | Advertiser of banner                                                          | optional | any listed values in settings            | Specified in settings |
-| tracker         | Your tracker                                                                  | optional | any text                                 | none                  |
-| defaultLanguage | This language will be used in case we do not dected the language of the user. | optional | fr_FR, es_ES                             | Specified in settings |
-| defaultMarket   | This market will be used in case we did not detect the location of the user.  | optional | france, spain                            | Specified in settings |
-| minWidth        | Minimum width (in px)                                                         | optional | integer                                  | none                  |
-| maxWidth        | Maximum width (in px)                                                         | optional | integer                                  | none                  |
-| minHeight       | Minimum height (in px)                                                        | optional | integer                                  | none                  |
-| maxHeight       | Maximum height (in px)                                                        | optional | integer                                  | none                  |
+| Parameter       | Description                                                                   | Required | Values                                   | Default                       |
+| --------------- | ----------------------------------------------------------------------------- | -------- | ---------------------------------------- | ----------------------------- | 
+| title           | Title of block                                                                | optional | any text                                 | none                          |
+| thematic        | Thematic of banner                                                            | optional | ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP, HEALTH | Specified in settings |
+| advertiser      | Advertiser of banner                                                          | optional | any listed values in settings            | Specified in settings         |
+| tracker         | Your tracker                                                                  | optional | any text                                 | none                          |
+| defaultLanguage | This language will be used in case we do not dected the language of the user. | optional | fr_FR, es_ES                             | Specified in settings         |
+| defaultMarket   | This market will be used in case we did not detect the location of the user.  | optional | france, spain                            | Specified in settings         |
+| minWidth        | Minimum width (in px)                                                         | optional | integer                                  | none                          |
+| maxWidth        | Maximum width (in px)                                                         | optional | integer                                  | none                          |
+| minHeight       | Minimum height (in px)                                                        | optional | integer                                  | none                          |
+| maxHeight       | Maximum height (in px)                                                        | optional | integer                                  | none                          |
 
 #### [goracash_iframe]
 
@@ -95,6 +95,12 @@ Coming soon. We are currently developing this interface in order to give the ent
 If you have any further questions, do not hesitate to contact directly our Affiliate Manager.
 
 ## Changelog
+
+### 0.8
+
+* Add RDVMédicaux iframe
+* Add Health thematics
+* Fix invalid default market
 
 ### 0.7
 

@@ -1,10 +1,10 @@
 === Goracash ===
 Contributors: davaxi
-Tags: goracash, adserver, banner, lead, teach, construction, iframe
+Tags: goracash, adserver, banner, lead, teach, construction, iframe, health
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.7
+Stable tag: 0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,7 +53,7 @@ Setting up a dynamic banner
 Parameters:
 
 - **title**: Title of block (optional) - any text (default: none)
-- **thematic**: Thematic of banner (optional) - ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP (default: Specified in settings)
+- **thematic**: Thematic of banner (optional) - ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP, HEALTH (default: Specified in settings)
 - **advertsier**: Advertiser of banner (optional) - Any listed values in settings (default: Specified in settings)
 - **tracker**: Your tracker (optional) - any text (default: none)
 - **defaultLanguage**: This language will be used in case we do not dected the language of the user. (optional) - fr_FR, es_ES (default: Specified in settings)
@@ -94,6 +94,13 @@ Coming soon. We are currently developing this interface in order to give the ent
 If you have any further questions, do not hesitate to contact directly our Affiliate Manager.
 
 == Changelog ==
+
+= 0.8 =
+
+* Add RDVMédicaux iframe
+* Add Health thematics
+* Fix invalid default market
+
 
 = 0.7 =
 * Fix invalid links

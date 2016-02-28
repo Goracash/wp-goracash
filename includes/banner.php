@@ -35,6 +35,7 @@ class Goracash_Banner
             'PSYCHO' => __('Psychology', 'goracash'),
             'TEACH' => __('In-Home Tutoring', 'goracash'),
             'DEVIS' => __('Home Renovation Quote', 'goracash'),
+            'HEALTH' => __('Health', 'goracash'),
             'JURI' => __('Law', 'goracash'),
             'SPONSORSHIP' => __('Sponsorship', 'goracash'),
         );
@@ -84,6 +85,7 @@ class Goracash_Banner
             'www.predictions-amoureuses.com' => 'www.predictions-amoureuses.com',
             'www.preditavi.com' => 'www.preditavi.com',
             'www.problemes-amoureux.com' => 'www.problemes-amoureux.com',
+            'www.rdvmedicaux.com' => 'www.rdvmedicaux.com',
             'www.reponse-immediate.com' => 'www.reponse-immediate.com',
             'www.retour-amour.com' => 'www.retour-amour.com',
             'www.tarot-amoureux.com' => 'www.tarot-amoureux.com',
@@ -165,7 +167,7 @@ class Goracash_Banner
             get_option('goracash_ads_force_ssl') ? 'true' : 'false',
             get_option('goracash_ads_thematic', 'ASTRO'),
             get_option('goracash_ads_default_lang', 'fr_FR'),
-            get_option('goracash_ads_default_market', 'french'),
+            get_option('goracash_ads_default_market', 'france'),
             $advertiser ? sprintf("goracash('set', 'advertiser', '%s');", $advertiser) : '',
             get_option('goracash_ads_popexit') ? "goracash('exit');" : '',
             get_option('goracash_ads_top_bar') ? "goracash('top-bar');" : ''

@@ -33,10 +33,11 @@ class Goracash_Iframe_Widget extends WP_Widget
 		$type = isset($instance['type']) ? $instance['type'] : 'astro';
 		$idw = get_option('goracash_idw', '1234');
 		$tracker = isset($instance['tracker']) ? $instance['tracker'] : '';
-		printf('<iframe src="%s?idw=%s&%tracker&app=wordpress" border="0" frameborder="0" width="100%%" height="400px"></iframe>',
+		printf('<iframe src="%s?idw=%s&%tracker&app=wordpress" border="0" frameborder="0" width="100%%" height="%spx"></iframe>',
 			Goracash_Iframe::get_url_from_type($type),
 			$idw,
-			$tracker
+			$tracker,
+			Goracash_Iframe::get_height_from_type($type)
 		);
 		echo $args['after_widget'];
 	}

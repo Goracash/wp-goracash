@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2016-01-05 23:02+0100\n"
-"PO-Revision-Date: 2016-01-05 23:03+0100\n"
+"POT-Creation-Date: 2016-02-28 22:12+0100\n"
+"PO-Revision-Date: 2016-02-28 22:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:34 includes/iframe.php:38
+#: includes/banner.php:34 includes/iframe.php:58
 msgid "Astrology / Fortune Telling"
 msgstr "Astrologie / Voyance"
 
@@ -28,31 +28,35 @@ msgstr "Astrologie / Voyance"
 msgid "Psychology"
 msgstr "Psychologie"
 
-#: includes/banner.php:36 includes/iframe.php:39
+#: includes/banner.php:36 includes/iframe.php:59
 msgid "In-Home Tutoring"
 msgstr "Enseignement"
 
-#: includes/banner.php:37 includes/iframe.php:41
+#: includes/banner.php:37 includes/iframe.php:61
 msgid "Home Renovation Quote"
 msgstr "Travaux"
 
-#: includes/banner.php:38 includes/iframe.php:43
+#: includes/banner.php:38
+msgid "Health"
+msgstr "Santé"
+
+#: includes/banner.php:39 includes/iframe.php:63
 msgid "Law"
 msgstr "Juridique"
 
-#: includes/banner.php:39
+#: includes/banner.php:40
 msgid "Sponsorship"
 msgstr "Parrainage"
 
-#: includes/banner.php:49
+#: includes/banner.php:50
 msgid "All"
 msgstr "Tous"
 
-#: includes/banner.php:104 includes/banner.php:115
+#: includes/banner.php:106 includes/banner.php:117
 msgid "French"
 msgstr "Français"
 
-#: includes/banner.php:105 includes/banner.php:116
+#: includes/banner.php:107 includes/banner.php:118
 msgid "Spanish"
 msgstr "Espagnol"
 
@@ -68,7 +72,7 @@ msgstr "Mise en place d'une bannière dynamique"
 msgid "All fields are optional."
 msgstr "Tout les champs sont facultatifs."
 
-#: includes/banner.widget.php:109 includes/iframe.widget.php:64
+#: includes/banner.widget.php:109 includes/iframe.widget.php:65
 msgid "Title"
 msgstr "Titre"
 
@@ -93,7 +97,7 @@ msgstr "Langue par défaut"
 msgid "Default market"
 msgstr "Marché par défaut"
 
-#: includes/banner.widget.php:142 includes/iframe.widget.php:74
+#: includes/banner.widget.php:142 includes/iframe.widget.php:75
 msgid "Your tracker"
 msgstr "Votre Tracker"
 
@@ -113,17 +117,21 @@ msgstr "Hauteur minimale (en px)"
 msgid "Maximum height (in px)"
 msgstr "Hauteur maximale (en px)"
 
-#: includes/iframe.php:40
+#: includes/iframe.php:60
 msgid "Academic Subscription"
 msgstr "Abonnement scolaire"
 
-#: includes/iframe.php:42
+#: includes/iframe.php:62
 msgid "Home Renovaton Quote - PRO"
 msgstr "Travaux - Artisan"
 
-#: includes/iframe.php:44
+#: includes/iframe.php:64
 msgid "Law - Vos Litiges"
 msgstr "Juridique - Vos Litiges"
+
+#: includes/iframe.php:65
+msgid "Health - RDVMédicaux"
+msgstr "Santé - RDVMédicaux"
 
 #: includes/iframe.widget.php:8
 msgid "Goracash Iframe"
@@ -133,7 +141,7 @@ msgstr "Goracash Iframe"
 msgid "Lead capture form"
 msgstr "Formulaire de captation de lead"
 
-#: includes/iframe.widget.php:69
+#: includes/iframe.widget.php:70
 msgid "Type"
 msgstr "Type"
 
