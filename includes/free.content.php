@@ -46,7 +46,7 @@ class Goracash_Free_Content
  		);
 		return $urls[$type];
 	}
-	
+
 	/**
 	 * @param $type
 	 * @return integer
@@ -98,7 +98,7 @@ class Goracash_Free_Content
 	public function add_shortcode($attributes)
 	{
 		$data = array();
-		foreach (Goracash_Iframe::$shortCodeParams as $key) {
+		foreach (Goracash_Free_Content::$shortCodeParams as $key) {
 			$shortcode_key = strtolower($key);
 			if (isset($attributes[$shortcode_key])) {
 				$data[$key] = $attributes[$shortcode_key];

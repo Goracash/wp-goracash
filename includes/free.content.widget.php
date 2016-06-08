@@ -30,14 +30,16 @@ class Goracash_Free_Content_Widget extends WP_Widget
 		echo apply_filters('widget_title', $instance['title']);
 		echo $args['after_title'];
 
-		$type = isset($instance['type']) ? $instance['type'] : 'astro';
+		$type = isset($instance['type']) ? $instance['type'] : 'daily_horoscope';
 		$idw = get_option('goracash_idw', '1234');
 		$height = isset($instance['height']) && $instance['height'] ? $instance['height'] : Goracash_Free_Content::get_height_from_type($type);
 		$width = isset($instance['width']) && $instance['width'] ? $instance['width'] : '100%';
 		$tracker = isset($instance['tracker']) ? $instance['tracker'] : '';
 		$backgroundColor = isset($instance['background-color']) ? $instance['background-color'] : '#FFFFFF';
-		$textColor = isset($instance['text-color']) ? $instance['text-color'] : '#333333';
-		$transparent = isset($instance['transparent']) ? $instance['transparent'] : '0';
+		$backgroundColor = str_replace('#', '', $backgroundColor);
+		$textColor = isset($instance['text-color']) && $instance['text-color'] ? $instance['text-color'] : '#333333';
+		$textColor = str_replace('#', '', $textColor);
+		$transparent = isset($instance['transparent']) && $instance['transparent'] ? $instance['transparent'] : '0';
 		printf('<iframe src="%s&idw=%s&datas=%s&clf=%s&clt=%s&trs=%s&app=wordpress" border="0" frameborder="0" width="%s" height="%s"></iframe>',
 			Goracash_Free_Content::get_url_from_type($type),
 			$idw,

@@ -4,7 +4,7 @@ Tags: goracash, adserver, banner, lead, teach, construction, iframe, health
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.8
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,7 +52,6 @@ Setting up a dynamic banner
 
 Parameters:
 
-- **title**: Title of block (optional) - any text (default: none)
 - **thematic**: Thematic of banner (optional) - ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP, HEALTH (default: Specified in settings)
 - **advertsier**: Advertiser of banner (optional) - Any listed values in settings (default: Specified in settings)
 - **tracker**: Your tracker (optional) - any text (default: none)
@@ -69,9 +68,24 @@ Lead capture form
 
 Parameters:
 
-- **title**: Title of block (optional) - any text (default: none)
 - **type**: Type of iframe (required) - astro, academic, academic_subscription, estimation, academic_subscription, juridical, voslitiges (default: none)
 - **tracker**: Your tracker (optional) - any text (default: none)
+- **width**: Width of iframe (optional) - values type 150px or 100% (default: 100%)
+- **height**: Height of iframe (optional) - values type 150px (default: 800px)
+
+= [goracash_free_content] =
+
+Lead capture form
+
+Parameters:
+
+- **type**: Type of content (required) - daily_horoscope, horoscope_hug_of_the_day, love_tip_of_the_day, spotlight, prediction_of_the_day, surname_of_the_day, dream_of_the_day, ritual_of_the_day, sign_of_the_day, testimony_of_the_day, theme_of_the_day, seeing_of_the_day (default: daily_horoscope)
+- **tracker**: Your tracker (optional) - any text (default: none)
+- **width**: Width of content (optional) - values type 150px or 100% (default: 100%)
+- **height**: Height of content (optional) - values type 150px (default: 800px)
+- **background-color**: Background color of content (optional) - values format #FFFFFF (default: #FFFFFF)
+- **text-color**: Color of text content (optional) - values format #333333 (default: #333333)
+- **transparent**: Transparent background (optional) - values 0 or 1 (default: 0)
 
 == Frequently Asked Questions ==
 
@@ -95,12 +109,15 @@ If you have any further questions, do not hesitate to contact directly our Affil
 
 == Changelog ==
 
-= 0.8 =
+= 0.9 =
+* Remove title from shortcode
+* Activate shortcode on iframes
+* Add width/height params on iframes
 
+= 0.8 =
 * Add RDVMédicaux iframe
 * Add Health thematics
 * Fix invalid default market
-
 
 = 0.7 =
 * Fix invalid links
