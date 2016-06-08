@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Goracash\n"
-"POT-Creation-Date: 2016-02-28 22:14+0100\n"
+"POT-Creation-Date: 2016-06-08 23:00+0200\n"
 "PO-Revision-Date: 2015-08-26 20:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/banner.php:34 includes/iframe.php:58
+#: includes/banner.php:34 includes/iframe.php:69
 msgid "Astrology / Fortune Telling"
 msgstr ""
 
@@ -28,11 +28,11 @@ msgstr ""
 msgid "Psychology"
 msgstr ""
 
-#: includes/banner.php:36 includes/iframe.php:59
+#: includes/banner.php:36 includes/iframe.php:70
 msgid "In-Home Tutoring"
 msgstr ""
 
-#: includes/banner.php:37 includes/iframe.php:61
+#: includes/banner.php:37 includes/iframe.php:72
 msgid "Home Renovation Quote"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Health"
 msgstr ""
 
-#: includes/banner.php:39 includes/iframe.php:63
+#: includes/banner.php:39 includes/iframe.php:74
 msgid "Law"
 msgstr ""
 
@@ -72,11 +72,12 @@ msgstr ""
 msgid "All fields are optional."
 msgstr ""
 
-#: includes/banner.widget.php:109 includes/iframe.widget.php:65
+#: includes/banner.widget.php:109 includes/free.content.widget.php:94
+#: includes/iframe.widget.php:76
 msgid "Title"
 msgstr ""
 
-#: includes/banner.widget.php:115 wp-goracash.php:237
+#: includes/banner.widget.php:115 wp-goracash.php:239
 msgid "Thematic"
 msgstr ""
 
@@ -85,19 +86,20 @@ msgstr ""
 msgid "By default"
 msgstr ""
 
-#: includes/banner.widget.php:122 wp-goracash.php:239
+#: includes/banner.widget.php:122 wp-goracash.php:241
 msgid "Advertiser"
 msgstr ""
 
-#: includes/banner.widget.php:128 wp-goracash.php:241
+#: includes/banner.widget.php:128 wp-goracash.php:243
 msgid "Default language"
 msgstr ""
 
-#: includes/banner.widget.php:135 wp-goracash.php:244
+#: includes/banner.widget.php:135 wp-goracash.php:246
 msgid "Default market"
 msgstr ""
 
-#: includes/banner.widget.php:142 includes/iframe.widget.php:75
+#: includes/banner.widget.php:142 includes/free.content.widget.php:104
+#: includes/iframe.widget.php:86
 msgid "Your tracker"
 msgstr ""
 
@@ -117,19 +119,99 @@ msgstr ""
 msgid "Maximum height (in px)"
 msgstr ""
 
-#: includes/iframe.php:60
+#: includes/free.content.php:79
+msgid "Daily horoscope"
+msgstr ""
+
+#: includes/free.content.php:80
+msgid "Sex daily horoscope"
+msgstr ""
+
+#: includes/free.content.php:81
+msgid "Love tip of the day"
+msgstr ""
+
+#: includes/free.content.php:82
+msgid "Highlight on..."
+msgstr ""
+
+#: includes/free.content.php:83
+msgid "Prediction of the day"
+msgstr ""
+
+#: includes/free.content.php:84
+msgid "Name of the day"
+msgstr ""
+
+#: includes/free.content.php:85
+msgid "Dream of the day"
+msgstr ""
+
+#: includes/free.content.php:86
+msgid "Ritual of the day"
+msgstr ""
+
+#: includes/free.content.php:87
+msgid "Sign of the day"
+msgstr ""
+
+#: includes/free.content.php:88
+msgid "Testimony of the day"
+msgstr ""
+
+#: includes/free.content.php:89
+msgid "Theme of the day"
+msgstr ""
+
+#: includes/free.content.php:90
+msgid "Reader of the day"
+msgstr ""
+
+#: includes/free.content.widget.php:8
+msgid "Goracash Free Content"
+msgstr ""
+
+#: includes/free.content.widget.php:9
+msgid "Daily horoscope, Sex daily horoscope, ..."
+msgstr ""
+
+#: includes/free.content.widget.php:99 includes/iframe.widget.php:81
+msgid "Type"
+msgstr ""
+
+#: includes/free.content.widget.php:109 includes/iframe.widget.php:91
+msgid "Width"
+msgstr ""
+
+#: includes/free.content.widget.php:114 includes/iframe.widget.php:96
+msgid "Height"
+msgstr ""
+
+#: includes/free.content.widget.php:119
+msgid "Background color"
+msgstr ""
+
+#: includes/free.content.widget.php:124
+msgid "Text color"
+msgstr ""
+
+#: includes/free.content.widget.php:129
+msgid "Transparent background"
+msgstr ""
+
+#: includes/iframe.php:71
 msgid "Academic Subscription"
 msgstr ""
 
-#: includes/iframe.php:62
+#: includes/iframe.php:73
 msgid "Home Renovaton Quote - PRO"
 msgstr ""
 
-#: includes/iframe.php:64
+#: includes/iframe.php:75
 msgid "Law - Vos Litiges"
 msgstr ""
 
-#: includes/iframe.php:65
+#: includes/iframe.php:76
 msgid "Health - RDVMédicaux"
 msgstr ""
 
@@ -141,122 +223,118 @@ msgstr ""
 msgid "Lead capture form"
 msgstr ""
 
-#: includes/iframe.widget.php:70
-msgid "Type"
-msgstr ""
-
-#: wp-goracash.php:86
+#: wp-goracash.php:88
 msgid "Settings"
 msgstr ""
 
-#: wp-goracash.php:111 wp-goracash.php:274
+#: wp-goracash.php:113 wp-goracash.php:276
 msgid "Warning"
 msgstr ""
 
-#: wp-goracash.php:112
+#: wp-goracash.php:114
 msgid "Your affiliate ID is missing."
 msgstr ""
 
-#: wp-goracash.php:113 wp-goracash.php:230 wp-goracash.php:234
-#: wp-goracash.php:269 wp-goracash.php:276
+#: wp-goracash.php:115 wp-goracash.php:232 wp-goracash.php:236
+#: wp-goracash.php:271 wp-goracash.php:278
 msgid "Learn more"
 msgstr ""
 
-#: wp-goracash.php:221
+#: wp-goracash.php:223
 msgid "General settings"
 msgstr ""
 
-#: wp-goracash.php:222
+#: wp-goracash.php:224
 msgid "To use our different tools, you need a Goracash account."
 msgstr ""
 
-#: wp-goracash.php:223
+#: wp-goracash.php:225
 msgid "Create a free account"
 msgstr ""
 
-#: wp-goracash.php:224
+#: wp-goracash.php:226
 msgid "Identifier"
 msgstr ""
 
-#: wp-goracash.php:226
+#: wp-goracash.php:228
 msgid ""
 "This ID is 4 digits and are located at the top right of your affiliate "
 "interface"
 msgstr ""
 
-#: wp-goracash.php:227
+#: wp-goracash.php:229
 msgid "Your API client ID"
 msgstr ""
 
-#: wp-goracash.php:229
+#: wp-goracash.php:231
 msgid "This identifier is generated in your affiliate interface."
 msgstr ""
 
-#: wp-goracash.php:231
+#: wp-goracash.php:233
 msgid "Your API secret Key"
 msgstr ""
 
-#: wp-goracash.php:233
+#: wp-goracash.php:235
 msgid "This information is provided to you in your affiliate interface."
 msgstr ""
 
-#: wp-goracash.php:235
+#: wp-goracash.php:237
 msgid "Content settings"
 msgstr ""
 
-#: wp-goracash.php:236
+#: wp-goracash.php:238
 msgid ""
 "This section allows you to specify the default settings to all content you "
 "use, they can be overloaded by the individual on."
 msgstr ""
 
-#: wp-goracash.php:243
+#: wp-goracash.php:245
 msgid ""
 "This language will be used in case we do not detect the language of the user."
 msgstr ""
 
-#: wp-goracash.php:246
+#: wp-goracash.php:248
 msgid ""
 "This market will be used in case we did not detect the location of the user."
 msgstr ""
 
-#: wp-goracash.php:247
+#: wp-goracash.php:249
 msgid "Forcing SSL"
 msgstr ""
 
-#: wp-goracash.php:249
+#: wp-goracash.php:251
 msgid "This option allows you to force all request in safe mode."
 msgstr ""
 
-#: wp-goracash.php:250
+#: wp-goracash.php:252
 msgid "Enable Pop-Exit"
 msgstr ""
 
-#: wp-goracash.php:252
+#: wp-goracash.php:254
 msgid "This option enables our popexit on your entire site."
 msgstr ""
 
-#: wp-goracash.php:253
+#: wp-goracash.php:255
 msgid "Enable Top-Bar"
 msgstr ""
 
-#: wp-goracash.php:255
+#: wp-goracash.php:257
 msgid "This option enables our top bar on your entire site."
 msgstr ""
 
-#: wp-goracash.php:267 wp-goracash.php:290
+#: wp-goracash.php:269 wp-goracash.php:292
 msgid "Error"
 msgstr ""
 
-#: wp-goracash.php:268
+#: wp-goracash.php:270
 msgid "To access these statistics please enter your API credentials."
 msgstr ""
 
-#: wp-goracash.php:275
+#: wp-goracash.php:277
 msgid "API credentials are missing."
 msgstr ""
 
-#: wp-goracash.php:291
+#: wp-goracash.php:293
 msgid "An error occured when validating your authentication information."
 msgstr ""
 
