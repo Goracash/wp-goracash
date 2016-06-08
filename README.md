@@ -53,7 +53,6 @@ Setting up a dynamic banner
 
 | Parameter       | Description                                                                   | Required | Values                                   | Default                       |
 | --------------- | ----------------------------------------------------------------------------- | -------- | ---------------------------------------- | ----------------------------- | 
-| title           | Title of block                                                                | optional | any text                                 | none                          |
 | thematic        | Thematic of banner                                                            | optional | ASTRO, PSYCHO, TEACH, DEVIS, SPONSORSHIP, HEALTH | Specified in settings |
 | advertiser      | Advertiser of banner                                                          | optional | any listed values in settings            | Specified in settings         |
 | tracker         | Your tracker                                                                  | optional | any text                                 | none                          |
@@ -70,7 +69,6 @@ Lead capture form
 
 | Parameter | Description    | Required | Values                                                                                    | Default |
 | --------- | -------------- | -------- | ----------------------------------------------------------------------------------------- | ------- |
-| title     | Title of block | optional | any text                                                                                  | none    |
 | type      | Type of iframe | required | astro, academic, academic_subscription, estimation, estimation_pro, juridical, voslitiges | none    |
 | tracker   | Your tracker   | optional | any text                                                                                  | none    |
 

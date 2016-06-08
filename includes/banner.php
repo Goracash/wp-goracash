@@ -132,9 +132,9 @@ class Goracash_Banner
         }
 
         $args = array(
-            'before_widget' => '<div class="box widget scheme-light">',
+            'before_widget' => '<div>',
             'after_widget'  => '</div>',
-            'before_title'  => '<div class="widget-title">',
+            'before_title'  => '<div>',
             'after_title'   => '</div>',
         );
 

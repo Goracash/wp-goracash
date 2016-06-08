@@ -32,12 +32,15 @@ class Goracash_Iframe_Widget extends WP_Widget
 
 		$type = isset($instance['type']) ? $instance['type'] : 'astro';
 		$idw = get_option('goracash_idw', '1234');
+		$height = isset($instance['height']) ? $instance['height'] : Goracash_Iframe::get_height_from_type($type);
+		$width = isset($instance['width']) ? $instance['width'] : '100%';
 		$tracker = isset($instance['tracker']) ? $instance['tracker'] : '';
-		printf('<iframe src="%s?idw=%s&%tracker&app=wordpress" border="0" frameborder="0" width="100%%" height="%spx"></iframe>',
+		printf('<iframe src="%s?idw=%s&%tracker&app=wordpress" border="0" frameborder="0" width="%s" height="%s"></iframe>',
 			Goracash_Iframe::get_url_from_type($type),
 			$idw,
 			$tracker,
-			Goracash_Iframe::get_height_from_type($type)
+			$width,
+			$height
 		);
 		echo $args['after_widget'];
 	}
@@ -60,6 +63,14 @@ class Goracash_Iframe_Widget extends WP_Widget
 			<p>
 				<label for="%s">%s :</label>
 				<input class="widefat" id="%s" name="%s" type="text" value="%s" />
+			</p>
+			<p>
+				<label for="%s">%s :</label>
+				<input class="widefat" id="%s" name="%s" type="text" value="%s" placeholder="200px | 100%%" />
+			</p>
+			<p>
+				<label for="%s">%s :</label>
+				<input class="widefat" id="%s" name="%s" type="text" value="%s" placeholder="850px" />
 			</p>',
 			$this->get_field_name('title'),
 			__('Title', 'goracash'),
@@ -75,7 +86,17 @@ class Goracash_Iframe_Widget extends WP_Widget
 			__('Your tracker', 'goracash'),
 			$this->get_field_id('tracker'),
 			$this->get_field_name('tracker'),
-			isset($instance['tracker']) ? $instance['tracker'] : ''
+			isset($instance['tracker']) ? $instance['tracker'] : '',
+			$this->get_field_name('width'),
+			__('Width', 'goracash'),
+			$this->get_field_id('width'),
+			$this->get_field_name('width'),
+			isset($instance['width']) ? $instance['width'] : '',
+			$this->get_field_name('height'),
+			__('Height', 'goracash'),
+			$this->get_field_id('height'),
+			$this->get_field_name('height'),
+			isset($instance['height']) ? $instance['height'] : ''
 		);
 	}
 
