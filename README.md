@@ -5,7 +5,7 @@ Tags: goracash, adserver, banner, lead, teach, construction, iframe, health
 Requires at least: 3.0.1
 Donate link:
 Tested up to: 3.4
-Stable tag: 0.9
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,20 +74,6 @@ Lead capture form
 | width     | Width of iframe  | optional | format: 150px or 100%                                                                     | 100%    |
 | height    | Height of iframe | optional | format: 150px or 100%                                                                     | 800px   |
 
-#### [goracash_free_content]
-
-Free content
- 
-| Parameter        | Description             | Required | Values                                                                                                                                                                                                                                | Default            |
-| ---------------- | ----------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| type             | Type of content         | required | daily_horoscope, horoscope_hug_of_the_day, love_tip_of_the_day, spotlight, prediction_of_the_day, surname_of_the_day, dream_of_the_day, ritual_of_the_day, sign_of_the_day, testimony_of_the_day, theme_of_the_day, seeing_of_the_day | daily_horoscope    |
-| tracker          | Your tracker            | optional | any text                                                                                                                                                                                                                              | none               |
-| width            | Width of content        | optional | format: 150px or 100%                                                                                                                                                                                                                 | 100%               |
-| height           | Height of content       | optional | format: 150px or 100%                                                                                                                                                                                                                 | 800px              |
-| background-color | Background color        | optional | format: #FFFFFF                                                                                                                                                                                                                       | #FFFFFF            |
-| text-color       | Text color              | optional | format: #FFFFFF                                                                                                                                                                                                                       | #333333            |
-| transparent      | Transparent background  | optional | 1 or 0                                                                                                                                                                                                                                | 0                  |
-
 ## Frequently Asked Questions
 
 ### How can I get my Goracash ID ?
@@ -109,6 +95,11 @@ Coming soon. We are currently developing this interface in order to give the ent
 If you have any further questions, do not hesitate to contact directly our Affiliate Manager.
 
 ## Changelog
+
+### 1.0
+
+* Upgrade goracash client API for PHP 7.0
+* Remove depreacated free contents
 
 ### 0.9
 

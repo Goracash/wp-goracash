@@ -43,7 +43,6 @@ if (!class_exists('Goracash_Plugin')) {
             }
             include_once plugin_dir_path( __FILE__ ) . 'includes/iframe.php';
             include_once plugin_dir_path( __FILE__ ) . 'includes/banner.php';
-            include_once plugin_dir_path( __FILE__ ) . 'includes/free.content.php';
 
             add_action('admin_menu', array($this, 'add_admin_menu'));
             add_action('admin_init', array($this, 'register_settings'));
